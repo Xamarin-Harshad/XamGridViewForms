@@ -19,12 +19,12 @@ like
     ItemSelected
 
 ## Screenshots:
+<MTMarkdownOptions output='html4'>
 iOS (NoOfColumns - 2)
-![](screenshots/iOS1.png)
-
+<img src="https://github.com/Xamarin-Harshad/XamGridViewForms/blob/master/screenshots/iOS1.png"  height="569" width="320">
 iOS (NoOfColumns - 4)
-![](screenshots/iOS2.png)
-
+<img src="https://github.com/Xamarin-Harshad/XamGridViewForms/blob/master/screenshots/iOS2.png"  height="569" width="320">
+</MTMarkdownOptions>  
 
 ## Thanks to
 ---------
