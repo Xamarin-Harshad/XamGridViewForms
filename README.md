@@ -20,10 +20,18 @@ like
 
 ## Screenshots:
 <MTMarkdownOptions output='html4'>
-iOS (NoOfColumns - 2)
+<b>iOS (NoOfColumns - 2)</b>
+
 <img src="https://github.com/Xamarin-Harshad/XamGridViewForms/blob/master/screenshots/iOS1.png"  height="569" width="320">
-iOS (NoOfColumns - 4)
+<b>iOS (NoOfColumns - 4)</b>
+
 <img src="https://github.com/Xamarin-Harshad/XamGridViewForms/blob/master/screenshots/iOS2.png"  height="569" width="320">
+<b>Android (NoOfColumns - 2)</b>
+
+<img src="https://github.com/Xamarin-Harshad/XamGridViewForms/blob/master/screenshots/Android1.png"  height="569" width="320">
+<b>Android (NoOfColumns - 4)</b>
+
+<img src="https://github.com/Xamarin-Harshad/XamGridViewForms/blob/master/screenshots/Android2.png"  height="569" width="320">
 </MTMarkdownOptions>  
 
 ## Thanks to
