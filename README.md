@@ -1,4 +1,4 @@
-XamGridView - Xamarin Forms
+## XamGridView - Xamarin Forms
 =======================
 
 GridView is a Control that displays items in a two-dimensional, scrollable grid.
@@ -9,7 +9,7 @@ May be an integer value, such as "2","5" etc.
 like 
 <XamGridView Padding="10" Margin="10" RowSpacing="5" ColumnSpacing="5" NoOfColumns="5"/> 
 
-Features
+## Features
 
     NoOfColumns
     Margin
@@ -18,7 +18,15 @@ Features
     ItemsSource
     ItemSelected
 
-Thanks to
+## Screenshots:
+iOS (NoOfColumns - 2)
+![](screenshots/iOS1.png)
+
+iOS (NoOfColumns - 4)
+![](screenshots/iOS2.png)
+
+
+## Thanks to
 ---------
 * [XLabs](https://github.com/XLabs/Xamarin-Forms-Labs) - The creator of [XLabs-Xamarin-Forms-Labs](https://github.com/XLabs/Xamarin-Forms-Labs/wiki/GridView)
 
