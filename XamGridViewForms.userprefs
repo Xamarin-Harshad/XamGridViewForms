@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{C11EE467-A5AE-4FA3-BA35-4F179490C92D}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamGridViewForms" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/harshadcse/Xam-Harshad/!!!XaM/A-Github/Xamarin-Forms/XamGridViewForms/iOS/Renderers/XamGridViewRenderer.cs" relfile="iOS/Renderers/XamGridViewRenderer.cs" line="130" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XamGridViewForms.Droid PreferredExecutionTarget="Xamarin.Player.XamarinStudio.DefaultPlayerExecutionTarget" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XamGridViewForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E07EA662-1BF0-4BC8-B3A8-26743A26EC1F">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.XamGridViewForms.iOS>
+</Properties>

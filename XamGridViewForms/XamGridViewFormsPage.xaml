@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:XamGridViewForms"
+    xmlns:controls="clr-namespace:XamGridViewForms.Controls;" 
+	x:Class="XamGridViewForms.XamGridViewFormsPage"
+    Title = "XamGridView Sample">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            x:Name ="navAdd" 
+            Order="Primary"
+            Text="Add"
+            Icon="download_icon.png"
+            Priority="0"  /> 
+    </ContentPage.ToolbarItems>
+    <controls:XamGridView x:Name="GrdView" RowSpacing="5" ColumnSpacing="5"  
+                               ItemsSource="{Binding XamMockDataList}"
+                               NoOfColumns="2">
+                <controls:XamGridView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                           <Image Source="{Binding ImageUrl}" Aspect="AspectFill" />
+                        </ViewCell>
+                    </DataTemplate>
+                </controls:XamGridView.ItemTemplate>
+            </controls:XamGridView>
+</ContentPage>
