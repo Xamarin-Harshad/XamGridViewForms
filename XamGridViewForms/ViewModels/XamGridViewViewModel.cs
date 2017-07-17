@@ -38,6 +38,7 @@ namespace XamGridViewForms.ViewModels
             {
                 lstImages.Add(new XamGridModel()
                 {
+                    Position = i+1,
                     ImageUrl = "https://unsplash.it/300/300?image=" + (i+10)
                 });
             }
