@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using FFImageLoading;
 using Foundation;
 using UIKit;
 
@@ -15,6 +15,17 @@ namespace XamGridViewForms.iOS
             global::Xamarin.Forms.Forms.Init();
 
             LoadApplication(new App());
+
+			FFImageLoading.Forms.Touch.CachedImageRenderer.Init();
+
+			var config = new FFImageLoading.Config.Configuration()
+			{
+				VerboseLogging = false,
+				VerbosePerformanceLogging = false,
+				VerboseMemoryCacheLogging = false,
+				VerboseLoadingCancelledLogging = false
+			};
+			ImageService.Instance.Initialize(config);
 
             return base.FinishedLaunching(app, options);
         }

@@ -2,7 +2,7 @@
 <ContentPage
 	xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	xmlns:local="clr-namespace:XamGridViewForms"
+	xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
     xmlns:controls="clr-namespace:XamGridViewForms.Controls;" 
 	x:Class="XamGridViewForms.XamGridViewFormsPage"
     Title = "XamGridView Sample">
@@ -20,7 +20,10 @@
                 <controls:XamGridView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                           <Image Source="{Binding ImageUrl}" Aspect="AspectFill" />
+					   <ffimageloading:CachedImage x:Name="Image" HorizontalOptions="Center" VerticalOptions="Center" 
+								LoadingPlaceholder="placeholder.png" ErrorPlaceholder="placeholder.png" DownsampleToViewSize="true" Aspect="AspectFill"
+								Source="{Binding ImageUrl}">
+						</ffimageloading:CachedImage>
                         </ViewCell>
                     </DataTemplate>
                 </controls:XamGridView.ItemTemplate>

@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections;
 using System.Collections.Specialized;
 using System.Linq;
@@ -262,12 +262,12 @@ namespace XamGridViewForms.Droid
         {
             ViewCell viewCell = (ViewCell)item;
             var viewCellContainer = convertView as GridViewCellContainer;
-            if (viewCellContainer != null)
-            {
-                // reuse existing container
-                viewCellContainer.Update(viewCell);
-                return viewCellContainer;
-            }
+            //if (viewCellContainer != null)
+            //{
+            //    // reuse existing container
+            //    viewCellContainer.Update(viewCell);
+            //    return viewCellContainer;
+            //}
 
             IVisualElementRenderer renderer = Xamarin.Forms.Platform.Android.Platform.CreateRenderer(viewCell.View);
             return new GridViewCellContainer(context, renderer, viewCell, parent);

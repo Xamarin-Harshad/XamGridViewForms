@@ -7,6 +7,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using FFImageLoading;
 
 namespace XamGridViewForms.Droid
 {
@@ -21,6 +22,16 @@ namespace XamGridViewForms.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+			FFImageLoading.Forms.Droid.CachedImageRenderer.Init();
+			var config = new FFImageLoading.Config.Configuration()
+			{
+				VerboseLogging = false,
+				VerbosePerformanceLogging = false,
+				VerboseMemoryCacheLogging = false,
+				VerboseLoadingCancelledLogging = false
+			};
+			ImageService.Instance.Initialize(config);
 
             LoadApplication(new App());
         }
